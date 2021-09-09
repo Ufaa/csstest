@@ -1,0 +1,106 @@
+.img-area {
+  position: relative;
+}
+.img-area img {
+	width:100%; 
+  height:200px;
+	object-fit:none;
+  object-position:0% 0%;
+}
+.img-area p {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+    /*コレ*/
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.about {
+  padding: 5% 0;
+  position: relative;
+  text-align: center;
+}
+.about h2 {
+  text-align: center;
+  padding-bottom: 3%;
+}
+.about p {
+  font-size: 12px;
+}
+.about p span {
+  font-weight: bold;
+}
+
+/*ブログ*/
+.blog h2 {
+  text-align: center;
+  padding-bottom: 5%;
+}
+.blog-box {
+  display: flex;
+    margin: 0 auto;
+  position: relative;
+}
+.blog1,.blog2,.blog3 {
+  width: 40%;
+  padding: 0% 2%;
+}
+.blog1 img,.blog2 img,.blog3 img {
+  width: 100%;
+}
+.blog1 h4,.blog2 h4,.blog3 h4{
+  display: block;
+  padding-top: 3%;
+  font-size: 12px;
+}
+
+/*お問い合わせ*/
+.contact{
+  padding: 5% 0;
+}
+.contact h2 {
+  font-size: 20px;
+  padding: 5% 0;
+  text-align: center;
+}
+.table{
+  width: 500px;
+  border-collapse: separate;
+  border-spacing: 0px 8px;
+}
+.contact-box {
+  margin: auto;
+}
+.contact-box th {
+  width: 250px;
+  padding: 2% 0;
+  padding-right: 2%;
+  text-align: left;
+  vertical-align: middle;
+}
+.contact-box td {
+  vertical-align: middle; 
+}
+.contact-form-item-input {
+  width: 100%;
+}
+
+.button {
+  text-align: center;
+  padding: 2% 0;
+}
+.contact-form-reset {
+  width: 150px;
+  padding: 7px;
+  border: none;
+}
+.contact-form-submit {
+  width: 150px;
+  padding: 7px;
+  border: none;
+  color:white;
+  background-color: rgb(39, 184, 189);
+}
