@@ -3,7 +3,7 @@
 }
 .img-area img {
 	width:100%; 
-  height:200px;
+  height: 400px;
 	object-fit:none;
   object-position:0% 0%;
 }
@@ -14,7 +14,7 @@
     /*コレ*/
   transform: translate(-50%,-50%);
   color: white;
-  font-size: 24px;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -73,6 +73,7 @@
 }
 .contact-box {
   margin: auto;
+
 }
 .contact-box th {
   width: 250px;
@@ -93,12 +94,13 @@
   padding: 2% 0;
 }
 .contact-form-reset {
-  width: 150px;
+  width: 200px;
   padding: 7px;
+  margin-right: 1%;
   border: none;
 }
 .contact-form-submit {
-  width: 150px;
+  width: 200px;
   padding: 7px;
   border: none;
   color:white;
