@@ -19,13 +19,13 @@
 }
 
 .about {
-  padding: 5% 0;
+  padding: 70px 0;
   position: relative;
   text-align: center;
 }
 .about h2 {
   text-align: center;
-  padding-bottom: 3%;
+  padding-bottom: 70px;
 }
 .about p {
   font-size: 12px;
@@ -37,7 +37,7 @@
 /*ブログ*/
 .blog h2 {
   text-align: center;
-  padding-bottom: 5%;
+  padding-bottom: 70px;
 }
 .blog-box {
   display: flex;
@@ -59,11 +59,11 @@
 
 /*お問い合わせ*/
 .contact{
-  padding: 5% 0;
+  padding: 70px 0;
 }
 .contact h2 {
   font-size: 20px;
-  padding: 5% 0;
+  padding: 70px 0;
   text-align: center;
 }
 .table{
