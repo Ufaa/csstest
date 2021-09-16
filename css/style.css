@@ -43,6 +43,7 @@
   display: flex;
     margin: 0 auto;
   position: relative;
+  width: 1000px;
 }
 .blog1,.blog2,.blog3 {
   width: 40%;
